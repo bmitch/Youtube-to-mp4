@@ -1,0 +1,9 @@
+List of YouTube URLs to mp4 files.
+
+Original purpose of this script was to use a list of YouTube videos posted to a Facebook group and download the mp4 of those videos.
+
+A sample of the Facebook Graph API JSON is the included top5.json file.
+
+Requires youtube-dl to run:
+http://rg3.github.io/youtube-dl/
+

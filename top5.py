@@ -1,16 +1,12 @@
 import json
 import os
 
-
-
-
 json_data = open("top5.json").read()
 data = json.loads(json_data)
 data = data["feed"]
 data = data['data']
 
 print data[1]['link']
-
 
 for (i, item) in enumerate(data):
 	if 'link' in data[i]:
